@@ -3,7 +3,7 @@ An algorithm which solves any given sudoku problem.
 
 The basic idea of this algorithm is backtracking.
 Now the reason why is works so fast even though we're kind off using brute force is that we check the validness of our solution everytime we set a new number.
-So we actually conserve a lot of computation.
+So we actually save a lot of computation.
 
 Here is the procedure:
 * first find out the next empty cell
